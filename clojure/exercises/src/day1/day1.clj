@@ -1,4 +1,4 @@
-(ns day1.code)
+(ns day1.day1)
 
 (defn big-string
 	"Returns true if the given string is longer than the given number"
@@ -12,7 +12,8 @@
 		:vector (if (= (type col) clojure.lang.PersistentArrayMap) 
 			:map (if (= (type col) clojure.lang.PersistentList) :list :dontknow))))
 
-(defn -main [& args]
+(defn day1 
+	[]
 	(do 
 		(if (= (big-string "1234" 5) true) (println "String is longer!") (println "String is shorter"))
 		(if (= (big-string "1234" 3) true) (println "String is longer!") (println "String is shorter"))
