@@ -14,7 +14,7 @@
 
 (defn -main [& args]
 	(do 
-		(if (= (big-string "1234" 5) true) "String is longer!" "String is shorter")
-		(if (= (big-string "1234" 3) true) "String is longer!" "String is shorter")
-		(collection-type [ 1 2 3 4])
-		(collection-type (list 1 2 3 4))))
+		(if (= (big-string "1234" 5) true) (println "String is longer!") (println "String is shorter"))
+		(if (= (big-string "1234" 3) true) (println "String is longer!") (println "String is shorter"))
+		(println (collection-type [ 1 2 3 4]))
+		(println (collection-type (list 1 2 3 4)))))
