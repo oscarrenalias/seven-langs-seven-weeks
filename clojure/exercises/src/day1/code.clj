@@ -13,7 +13,7 @@
 			:map (if (= (type col) clojure.lang.PersistentList) :list :dontknow))))
 
 (defn -main [& args]
-	(list 
+	(do 
 		(if (= (big-string "1234" 5) true) "String is longer!" "String is shorter")
 		(if (= (big-string "1234" 3) true) "String is longer!" "String is shorter")
 		(collection-type [ 1 2 3 4])
