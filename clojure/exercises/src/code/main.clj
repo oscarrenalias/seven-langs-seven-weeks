@@ -1,7 +1,10 @@
 (ns code.main
-	(:use code.day1 code.day2))
+	(:use code.day1 code.day2 code.day3))
 
 (defn -main [& args]
-	(do
-		(day1)
-		(day2)))
+	((println "Day 1")
+	 (day1)	 
+	 (println "Day 2")
+	 (day2)
+	 (println "Day 3")
+	 (day3)))
