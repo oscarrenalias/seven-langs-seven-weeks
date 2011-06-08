@@ -1,4 +1,4 @@
-(ns day1.day1)
+(ns code.day1)
 
 (defn big-string
 	"Returns true if the given string is longer than the given number"

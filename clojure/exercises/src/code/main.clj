@@ -1,5 +1,5 @@
-(ns main.main
-	(:use day1.day1 day2.day2))
+(ns code.main
+	(:use code.day1 code.day2))
 
 (defn -main [& args]
 	(do

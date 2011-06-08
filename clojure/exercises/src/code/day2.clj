@@ -1,4 +1,4 @@
-(ns day2.day2)
+(ns code.day2)
 
 (defprotocol Account
 	(deposit [c amount])
