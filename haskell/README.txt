@@ -1,0 +1,1 @@
+Some Haskell code from the book "7 languages in 7 weeks"
